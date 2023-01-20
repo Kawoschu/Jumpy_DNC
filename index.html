@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Bootcamp</title>
+</head>
+
+
+
+<body>
+    
+<div id="dnc">
+    <img src="image/dnc.svg" width="164">
+</div>
+
+
+<div class = "container">
+    <header>
+        <div id="Jumpy">
+            <img src="image/jumpy_logo.svg" width="300">
+        </div>
+        <p>Bem vindo ao Jumpy!</p>  
+    </header>
+
+
+
+    <form id="form" class="form">
+        <div class="form-control">
+            <label for ="username">Nome Completo:</label>
+            <input type="text" placeholder="Nome completo" id="username">
+            <small>Error message</small>
+        </div>
+        
+
+        <div class="form-control">
+            <label>E-mail:</label>
+            <input type="email" placeholder="Email@email.com" id="email">
+            <small>Error message</small>
+        </div>
+
+
+        <div class="form-control">
+            <label for="tel">Telefone:</label>
+            <input type="tel" placeholder="(00) 00000-0000" class="form-control" id="tel" maxlength="15" >
+            <small>Error message</small>
+        </div>
+
+
+        <div class="form-control">
+            <label for="cpf">CPF:</label>
+            <input type="text" placeholder="000.000.000-00"  id="cpf" maxlength="14">
+            <small>Error message</small>
+        </div>
+
+
+        <div class="form-control">
+            <label for="pass">Senha:</label>
+            <input type="password" placeholder="********" maxlength="8" id="password">
+            <small>Error message</small>
+        </div>
+        
+
+        <div id="submit">
+        <input type="submit" value="Cadastrar">
+        <div class="form-control" id="required">
+            <small class="final">Error message</small>
+            <i class="acerto">Sucesso</i>
+        </div>
+       
+        </div>
+    </form>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
